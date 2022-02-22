@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+header {
+    background-color: rgb(41, 63, 80);
+}
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+#stylescon {
+    font-size: 48px;
+    color:rgb(255, 255, 255);
+    font-weight: lighter;
+}
+#stylescon:hover {
+    color:rgb(100, 136, 128)
+}
+#august {
+    text-align: right;
+    margin-top: 84px;
+}
+span {
+    display: block;
+}
+#styleaug {
+    color: rgb(100, 136, 128);
+    font-size: 21px;
+}
+h1 {
+    margin-bottom: 22px;
+    padding-top: 40px;
+    padding-bottom: 22px;
+}
+a:hover {
+    color:rgb(100, 136, 128);
+}
+#dedrow {
+    text-align: center;
+    padding: 22px 80px 66px 80px;
+    line-height: 44px;
+}
+h2 {
+    font-family: "Lato";
+    font-weight: lighter;
+    font-size: 36px;
+    color: rgb(100, 136, 128);
+    line-height: 44px;
+}
+#everp {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+button {
+    background-color: rgb(41, 63, 80);
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    padding: 20px 30px;
+}
+button:hover {
+    background-color: white;
+    color: rgb(41, 63, 80);
+    font-weight: bold;
+}
+section {
+    display: flex;
+    padding-top: 66px;
+    padding-bottom: 44px;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 63, 80);
+    padding: 48px 40px;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 6px;
+}
+#footnav1 {
+    color: rgb(100, 136, 128);
+    font-size: 14px;
+}
+#footnav2 a {
+    font-size: 14px;
+    color: rgb(255, 255, 255)
+}
+img {
+    width: 279px;
+    height: 197px;
+    border-radius: 5px;
+    margin-bottom: 22px;
+
+}
+#imgsec {
+    display: flex;
+    color: rgb(136, 136, 136)
+}
+h3 {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 22px;
+}
+h5 {
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+#paraimg {
+    font-size: 16px;
+    margin-bottom: 22px;
+    width: 279px;
+}
+.imgspk {
+    padding: 0 15px;
+}
+@media screen and (width: 768px) {
+   #stylescon {
+       font-size: 40px;
+   }
+   #styleaug {
+       font-size: 18px;
+   }
+   a {
+       font-size: 14px;
+   }
+   h3 {
+       margin-bottom: 10px;
+   }
+   h2 {
+       font-size: 30px;
+       line-height: 30px;
+   }
+   #everp {
+       font-size: 18px;
+   }
+   button {
+       padding: 12px 18px;
+   }
+   img {
+       width: 200px;
+       height: 150px;
+   }
+   #paraimg {
+       width: 210px;
+       font-size: 14px;
+   }
+   .imgspk {
+       padding: 6px;
+   }
+}
+@media screen and (max-width: 425px) {
+    #stylescon {
+        font-size: 18px;
+        padding-left: 8px;
+    }
+    #august {
+        margin-top: 8px;
+    }
+    #august a {
+        font-size: 6px;
+    }
+    h1 {
+        margin-bottom: 10px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    a {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    #styleaug {
+        font-size: 18px;
+        padding-top: 38px;
+        padding-right: 8px;
+    }
+    #dedrow {
+        line-height: 30px;
+        padding: 20px 40px 30px 40px;
+    }
+    #everp {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    button {
+        padding: 6px 8px;
+        font-size: 10px;
+    }
+    img {
+        width: 100px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+    #paraimg {
+        width: 90px;
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+    .imgspk {
+        padding: 0 2px;
+    }
+    h5 {
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+    li {
+        padding: 2px;
+    }
+    #footnav2 a {
+        font-size: 8px;
+        color: rgb(255, 255, 255)
+    }
+    footer {
+        padding: 20px 10px;
+    }
+    section {
+        padding-bottom: 20px;
+        padding-top: 24px;
+    }
+    a {
+        font-weight: bold;
+    }
+    #footnav1 {
+        font-size: 12px;
+    }
+ }
