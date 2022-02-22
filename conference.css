@@ -187,7 +187,7 @@ h5 {
         margin-bottom: 0;
     }
     h2 {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 24px;
     }
     #styleaug {
@@ -196,7 +196,7 @@ h5 {
         padding-right: 8px;
     }
     #dedrow {
-        line-height: 30px;
+        line-height: 22px;
         padding: 20px 40px 30px 40px;
     }
     #everp {
@@ -218,7 +218,7 @@ h5 {
         margin-bottom: 8px;
     }
     .imgspk {
-        padding: 0 2px;
+        padding: 0 4px;
     }
     h5 {
         font-size: 10px;
@@ -232,7 +232,7 @@ h5 {
         color: rgb(255, 255, 255)
     }
     footer {
-        padding: 20px 10px;
+        padding: 12px 10px;
     }
     section {
         padding-bottom: 20px;
@@ -243,5 +243,6 @@ h5 {
     }
     #footnav1 {
         font-size: 12px;
+        line-height: 30px;
     }
  }
